@@ -292,7 +292,7 @@ namespace MvcApplication1.Controllers
 
         //
         // GET: /Account/ExternalLoginFailure
-
+        // temp 
         [AllowAnonymous]
         public ActionResult ExternalLoginFailure()
         {
