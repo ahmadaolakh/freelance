@@ -1,0 +1,56 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="~/Content/signin_style.css" />
+    <title>Untitled Document</title>
+</head>
+<body>
+    <!--Header section-->
+    <div class="wrapper_fluid header">
+        <div class="wrapper">
+            <div class="left_side_bar">
+                <a class="logo" href="#"><img src="~/Images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="right_side_bar">
+                <ul>
+                    <li><a href="#">Signup</a></li>
+                </ul>
+            </div>
+            <div class="clear-me"></div>
+        </div>
+    </div>
+    <!--Content section-->
+    <div class="wrapper signup_session signup_session_FL">
+        <br /><br /><br /><br /><br />
+        <center>
+            <h1>Create a Free Client Account</h1>
+        </center>
+        <form class="form_control" action="#">
+            <input type="text" value="" placeholder="User Name or Email" />
+            <input type="password" value="" placeholder="Password" />
+            <div style="margin-top:30px;" class="checkbox">
+                <label><input type="checkbox" value="" /> Remeber Me Next Time</label>
+            </div>
+            <center>
+                <button class="button" type="submit" value="">Get Started</button>
+                <div class="checkbox">
+                    <label><a href="#">FORGOT PASSWORD?</a></label>
+                </div>
+            </center>
+            <div class="clear-me"></div>
+        </form>
+        <div class="clear-me"></div>
+
+        <section class="button" id="socialLoginForm">
+            @Html.Action("ExternalLoginsList", "Account", new { ReturnUrl = ViewBag.ReturnUrl })
+        </section>
+    </div>
+    <!--Footer section-->
+    <div class="wrapper_fluid footer">
+        <div class="wrapper">
+            <center><p>© 2015 Copyrights Reserved</p></center>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,450 @@
+/* Reset CSS */
+.clear-me {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+.float-left {
+	float:left !important;
+}
+.float-right {
+	float:right !important;
+}
+.no-margin {
+	margin:0 !important;
+}
+.no-padding {
+	padding:0 !important;
+}
+p {
+	margin-top:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#000;
+ line-height:;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+@font-face {
+ font-family:'GothamBook';
+  src:url(GothamBook.ttf) format("opentype");
+}
+body {
+	background:#f9f9f9;
+	font-family:'GothamBook';
+}
+h1 {
+	font-size:12px;
+}
+h2 {
+	font-size:14px;
+}
+h3 {
+	font-size:16px;
+}
+h4 {
+	font-size:18px;
+}
+h5 {
+	font-size:20px;
+}
+h6 {
+	font-size:22px;
+}
+ul, ol {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+li {
+}
+.pull_left{
+	float:left !important;
+}
+.pull_right{
+	float:right !important;
+}
+
+
+/*Start here............................*/
+.wrapper_fluid{
+	width:100%;
+	clear:both;
+}
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+	clear:both;
+}
+.signup_session{
+	min-height:650px;
+}
+.header{
+	padding:15px 0;
+	background:#ffffff;
+	border-bottom:1px solid #e0e0e0;
+}
+.header .left_side_bar{
+	width:50%;
+	float:left;
+}
+.header .right_side_bar{
+	width:50%;
+	float:right;
+}
+.header .right_side_bar ul{
+	list-style:none;
+	padding:0;
+	margin:5px 0 0 0;
+	text-align:right;
+}
+.header .right_side_bar ul li a{
+	font-size:16px;
+	color:#4b4b4b;
+	text-decoration:none;
+	font-weight:bold;
+}
+.header .right_side_bar ul li a:hover{
+	color:#0099e5;
+}
+.signup_session h1{
+	color:#494949;
+	line-height:55px;
+	font-size:45px;
+	margin:15px 0 0 0;
+}
+.signup_session h1 small{
+	font-size:22px;
+}
+.signup_box{
+	width:365px;
+	height:287px;
+	border:2px solid #0099e5;
+	float:left;
+	margin:80px 0 0 0;
+}
+.signup_box .icon{
+	width:89px;
+	height:98px;
+	margin:0 auto;
+	margin-top:-43px;
+}
+.signup_box h1{
+	color:#999999;
+	line-height: normal;
+	font-size:30px;
+}
+.signup_box h2{
+	color:#0099e5;
+	line-height: normal;
+	font-size:36px;
+	margin:5px 0 0 0;
+	text-transform:uppercase;
+}
+.signup_box p{
+	color:#999999;
+	line-height: normal;
+	font-size:20px;
+	margin:40px 0 0 0;
+}
+.signup_box .button{
+	display:inline-block;
+	background:#0099e5;
+	color:#ffffff;
+	text-decoration:none;
+	padding:15px 0;
+	width:142px;
+	margin:22px 0 0 0;
+	border-radius:5px;
+	font-size:25px;
+	cursor:pointer;
+}
+.signup_box .button:hover{
+	background:#323232;
+}
+.middle_box{
+	width:260px;
+	float:left;
+	text-align:center;
+}
+.middle_box h1{
+	color:#999999;
+	font-size:30px;
+	margin:0;
+	line-height:440px;
+}
+.footer{
+	background:#323232;
+	padding:25px 0;
+	margin-top:20px;
+	
+}
+.footer p{
+	color:#ffffff;
+	margin:0;
+	font-size:25px;
+}
+.signup_session_FL h1{
+	color:#494949;
+	line-height:55px;
+	font-size:35px;
+	margin:15px 0 0 0;
+}
+.signup_session_FL h2{
+	color:#494949;
+	font-size:18px;
+	margin:15px 0;
+}
+.signup_session_FL h2 a{
+	color:#0099e5;
+	text-decoration:none;
+}
+.form_control{
+	max-width:500px;
+	width:100%;
+	margin:0 auto;
+	clear:both;
+}
+.form_control input{
+	width:97.5%;
+	float:left;
+	padding:10px 0 10px 10px;
+	margin:20px 0 0 0;
+	font-size:18px;
+	outline:0;
+	border-radius:5px;
+	border:2px solid #e0e0e0;
+}
+.form_control select{
+	width:100%;
+	float:left;
+	padding:10px;
+	margin:20px 0 0 0;
+	font-size:18px;
+	outline:0;
+	border-radius:5px;
+	border:2px solid #e0e0e0;
+}
+.capche_img{
+	width:100%;
+	float:left;
+	margin:20px 0;
+}
+.form_control .checkbox{
+	width:100%;
+	float:left;
+}
+.form_control .checkbox input{
+	width:auto;
+	margin:0 10px 0 0;
+}
+.form_control .checkbox label{
+	font-weight:bold;
+	color:#494949;
+	font-size:14px;
+}
+.form_control .checkbox label a{
+	color:#0099e5;
+	text-decoration:none;
+}
+.form_control .button{
+	display:inline-block;
+	background:#0099e5;
+	color:#ffffff;
+	text-decoration:none;
+	padding:15px 40px;
+	width:auto;
+	margin:22px 0 30px 0;
+	border-radius:5px;
+	font-size:20px;
+	border:none;
+	cursor:pointer;
+}
+.signup_button{
+	display:inline-block;
+	background:#0099e5;
+	color:#ffffff;
+	text-decoration:none;
+	padding:15px 40px;
+	width:auto;
+	margin:22px 0 30px 0;
+	border-radius:5px;
+	font-size:20px;
+	border:none;
+	cursor:pointer;
+}
+.form_control .button:hover{
+	background:#323232;
+}
+/*Responsive css here............................*/
+@media all and (max-width:1050px){
+.wrapper{
+	width:800px;
+}
+.middle_box{
+	width:115px;
+}
+.signup_box{
+	width:336px;
+}
+}
+@media all and (max-width:850px){
+.wrapper{
+	width:700px;
+}
+.signup_box{
+	width:288px;
+	height:233px;
+}
+.signup_box h2{
+	font-size:27px;
+}
+.signup_box h1{
+	font-size:20px;
+}
+.signup_box p{
+	font-size:16px;
+	margin:20px 0 0 0;
+}
+.middle_box h1{
+	line-height:395px;
+}
+}
+@media all and (max-width:750px){
+.wrapper{
+	width:95%;
+}
+.signup_box{
+	width:39%;
+	height:195px;
+}
+.middle_box{
+	width:20%;
+}
+.signup_box h2{
+	font-size:25px;
+}
+.signup_box h1{
+	font-size:18px;
+}
+.signup_box p{
+	font-size:14px;
+	margin:20px 0 0 0;
+}
+.middle_box h1{
+	line-height:382px;
+	font-size:20px;
+}
+
+.signup_box .button{
+	padding:7px 0;
+	font-size:18px;
+}
+.signup_box .icon{
+	width:70px;
+	height:70px;
+	margin-top:-34px;
+}
+.signup_box .icon img{
+	width:100%;
+}
+.signup_session{
+	min-height:inherit;
+}
+.footer p{
+	font-size:20px;
+}
+}
+@media all and (max-width:550px){
+.signup_box h2{
+	font-size:18px;
+}
+.signup_box{
+	height:186px;
+}
+.signup_session h1{
+	font-size:30px;
+	line-height:30px;
+}
+.signup_session h1 small{
+	font-size:18px;
+}
+.middle_box h1{
+	line-height:382px;
+	font-size:20px;
+}
+.signup_box h1{
+	font-size:18px;
+}
+.logo img{
+	width:132px;
+}
+.header .right_side_bar ul li a{
+	font-size:14px;
+}
+.header .right_side_bar ul{
+	margin:0;
+}
+.signup_box p{
+	font-size:12px;
+}
+.middle_box{
+	width:19%;
+}
+.signup_session_FL h1{
+	font-size:25px;
+}
+}
+@media all and (max-width:450px){
+.signup_box{
+	width:99%;
+	height:auto;
+	margin-top:60px;
+	padding:0 0 20px 0; 
+}
+.middle_box{
+	width:100%;
+}
+.middle_box h1{
+	line-height:normal;
+	margin:50px 0 0 0;
+}
+.footer{
+	margin:20px 0 0 0;
+}
+.footer p{
+	font-size:14px;
+}
+.header .left_side_bar{
+	width:40%;
+}
+.header .right_side_bar{
+	width:60%;
+}
+.logo img{
+	width:115px;
+}
+.signup_session h1 small{
+	font-size:15px;
+}
+.signup_session_FL h2{
+	font-size:14px;
+}
+.signup_session_FL h1{
+	font-size:18px;
+	line-height:normal;
+}
+.form_control input{
+	width:95.5%;
+}
+.form_control .checkbox label{
+	font-size:9px;
+}
+}
